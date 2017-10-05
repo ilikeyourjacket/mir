@@ -1,2 +1,2 @@
-# mir
-A modular space station - for your UI.
+# popper-react
+> Popper.js for React
