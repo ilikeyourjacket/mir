@@ -1,0 +1,20 @@
+.mir-button-border {
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 17px;
+    max-width: 220px;
+}
+
+.mir-button {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 14px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 40px;
+    font-size: 1.5em;
+}

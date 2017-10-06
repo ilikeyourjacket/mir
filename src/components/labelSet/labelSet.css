@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+.mir-label-border {
+    max-width: 220px;
+}
+
+.mir-label-set {
+    border: 1px solid black;
+    cursor: pointer;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    font-family: 'Abel', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+    height: 40px;
+    font-size: 1.5em;
+    flex-direction: row;
+    transition: transform 1s;
+}
+
+.mir-label-set .toggled {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    transition: transform 1s;
+}
+
+.mir-label-text {
+    background-color: white;
+    height: 100%;
+    color: black;
+    width: 50%;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mir-buffer {
+    background-color: black;
+    height: 100%;
+    width: 50%;
+}
